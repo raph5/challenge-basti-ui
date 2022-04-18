@@ -1,0 +1,23 @@
+{
+  "name": "challenge-basti-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node-sass —-watch scss -o css",
+    "build": "node-sass scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raph5/challenge-basti-ui.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raph5/challenge-basti-ui/issues"
+  },
+  "homepage": "https://github.com/raph5/challenge-basti-ui#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
