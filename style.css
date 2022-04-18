@@ -1,0 +1,44 @@
+body {
+  background: #00232B;
+  padding: 0;
+  margin: 0; }
+
+@keyframes fade-in-points {
+  from {
+    transform: translateX(-100%);
+    opacity: 0; }
+  to {
+    transform: none;
+    opacity: 1; } }
+
+@keyframes fade-in-waves {
+  from {
+    transform: rotate(-5deg) translateY(100%);
+    opacity: 0; }
+  to {
+    transform: rotate(-5deg);
+    opacity: 1; } }
+
+.background {
+  position: relative;
+  z-index: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden; }
+  .background img {
+    position: absolute; }
+  .background__points {
+    top: 15%;
+    left: -1%;
+    width: 20%;
+    height: 20%;
+    transform: translateX(-100%);
+    animation: fade-in-points 400ms forwards;
+    animation-delay: 300ms; }
+  .background__waves {
+    bottom: -20%;
+    width: 100%;
+    transform: rotate(-5deg);
+    transform: rotate(-5deg) translateY(100%);
+    animation: fade-in-waves 400ms forwards;
+    animation-delay: 100ms; }

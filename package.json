@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "node-sass —-watch scss -o css",
-    "build": "node-sass scss -o css"
+    "dev": "node-sass --watch scss/main.scss style.css",
+    "build": "node-sass scss/main.scss style.css"
   },
   "repository": {
     "type": "git",
